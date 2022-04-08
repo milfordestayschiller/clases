@@ -1,0 +1,26 @@
+body {
+    background-color: orange;
+}
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color:brown;
+}
+
+h4 {
+    color:blue;
+}
+
+h5 {
+    color:rgba(184, 12, 207, 0.797);
+}
+
+h6 {
+    color:blueviolet;
+}
