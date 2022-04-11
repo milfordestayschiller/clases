@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+}
+
+img {
+    width: 30%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imperio {
+    background-color: red;
+    display: flex !important;
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+    font-size: 200%;
+   
+}
+
+.rebeldes {
+    background-color: red;
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+    font-size: 120% !important;
+    text-align: center;
+}
+
+#vader {
+    font-size: 120%;
+}
+
+#luke {
+    font-style: italic;
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+    font-size: 120% !important;
+}
+
+.soldados {
+    border-bottom: 3em;
+    letter-spacing: 3em;
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+}
+
+.unidadapoyo {
+    text-align: center;
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+}
+
+.naves {
+    text-transform: uppercase;
+    display: flex !important; 
+}
+
+.droid {
+display: flex !important;
+}
+
+.tropas {
+    display: flex !important;
+}
+
+.class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: 'SF Distant Galaxy AltOutline Font Family';
+    src: URL('./starwars.ttf') format('truetype');
+  }

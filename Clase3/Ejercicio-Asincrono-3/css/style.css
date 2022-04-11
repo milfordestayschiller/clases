@@ -1,0 +1,44 @@
+body {
+    background: url(../images/acertijo.jpeg);
+ 
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+   border: 10em;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 180%;
+
+
+}
+
+h3 {
+    text-align: center;
+    color: white; 
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 130%;
+}
+
+#leonimg {
+    width: 24%;
+    height: 25%;
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    width: 120%;
+   
+    
+}

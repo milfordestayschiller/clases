@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+}
+.mascota {
+    color: red;
+    font-size: 150%;
+}
+
+.gato {
+    font-size: 250%;
+    color: violet;
+}
+
+.perro {
+    font-size: 350%;
+    color:brown;
+}
+
+#pinky {
+    color: red;
+    font-style: italic;
+}
+
+#cerebro {
+    font-style: bold;
+    color:chocolate;
+}
