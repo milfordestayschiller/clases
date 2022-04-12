@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Instapet</title>
+</head>
+
+<body>
+    <h1>Hola Bienvenidos a Instapet!!! </h1>
+    <p>Hola esta es una web social para hablar de mascotas</p>
+
+    <!-- Formulario-->
+
+    <form method="post" action="backend">
+        <label name="nombremascota">
+            Nombre de la mascota
+            <input type="text" name="nombre" placeholder="Ingrese nombre de la mascota" required>
+        </label>
+        <br>
+        <br>
+        <label name="edadmascota">
+            Edad de la mascota
+            <input type="number" max="100" name="edad" placeholder="Ingrese edad de la mascota" required>
+        </label>
+        <br>
+        <br>
+        <label name="correo">
+            Email de contacto
+            <input type="email" placeholder="Ingrese email de contacto" required>
+
+        </label>
+        <br>
+        <br>
+        <label name="password">
+            Contraseña
+            <input type="password" minlength="5" maxlength="15" placeholder="Ingrese contraseña" required>
+        </label>
+        
+        <label name="colormascota">
+            <p>Color de la mascota</p>
+            <input type="color" name="color" id="colorpet" value="#ff0000">
+
+
+        </label>
+        <br>
+        <br>
+
+        Ingrese su consulta:
+        <br>
+<textarea name="consulta" id="consultas" cols="30" rows="10"></textarea>
+<br>
+<input type="checkbox" name="terminos" id="terminosycondiciones">Aceptar terminoes y Condiciones
+<input type="submit" value="Enviar">
+<br>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<br>
+<iframe src="https://www.google.com/maps/d/embed?mid=1wwfTk1cMz5mdJeIM24URT9PAGeo&ehbc=2E312F" width="640" height="480"></iframe>
+
+
+    </form>
+
+</body>
+
+</html>

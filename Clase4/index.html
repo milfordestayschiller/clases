@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4</title>
+</head>
+<body>
+    <div style="color:red; background-color:blue;">
+        <h1>Ejemplo de div</h1>
+        <p>Parrafo de test <span style="color:aqua;">test span</span>test</p>
+    </div>
+
+    <div>
+        <h1>Esto es un contenedor</h1>
+        <div>
+            <p>Este es un parrafo que esta dentro de un div que a su ves esta dentro </p>
+        </div>
+        <br>
+        <br>
+</div>
+<div>
+    <h2>Esto es otro contenedor</h2>
+    <p>Este es otro parrafo en un div distinto al anterior</p>
+</div>
+
+<!-- Formularios Web Basico-->
+
+<form method="post" action="/login"> 
+<input type="text">
+<input type="password">
+<input type="email">
+<input type="submit">
+</form>
+
+<!-- Menu ancla-->
+
+<a href="#ancla1">Intereses</a>
+<a href="#ancla2">Pais</a>
+<a href="#ancla3">Residencia</a>
+<br>
+<br>
+<br>
+<!-- Form mas Avanzado-->
+
+<form method="get" action="otrapagina.html">
+    <label for="">Nombre:
+        <br>
+<input type="text" size="50" name="nombre">
+</label>
+<p>Año de nacimiento</p>
+<input type="text" name="Fecha de nacimiento" min="900">
+<p>Genero</p>
+<input type="radio" name="genero" value="h">Hombre
+<input type="radio" name="genero" value="m">Mujer
+<input type="radio" name="genero" value="o">Otro
+<br>
+<br>
+
+<p>Usuaario</p>
+<input type="text" name="usuario" maxlength="8">
+
+<p>Password</p>
+<input type="password" name="pass" minlength="5">
+
+<a name="ancla1"></a>
+<p>Seleccione sus intereses:</p>
+
+<input type="checkbox" name="pelicula" id="peli">Pelicula
+<input type="checkbox" name="deportes" id="natacion">natacion
+<input type="checkbox" name="juegos" id="juego">Juegos
+
+<a name="ancla2"></a>
+<p>Pais</p>
+<select name="pais" id="paises">
+    <option value="sl">Seleccionar pais</option>
+<option value="cl">Chile</option>
+<option value="pe">Peru</option>
+<option value="mx">Mexico</option>
+</select>
+<br>
+<br>
+
+<select multiple name="categorias">
+<p>Seleccion gustos de peliculas</p>
+<option value="cf">Ciencia Ficcion</option>
+<option value="av">Aventtura</option>
+<option value="ft">Fantasia</option>
+</select>
+
+<br>
+
+<p>Habla sobre ti</p>
+
+<textarea name="descripcion" id="" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+
+<br>
+<input type="reset" value="borrar">
+<input type="submit" value="enviar">
+</form>
+<br>
+<a name="ancla3"></a>
+<p>Ubique su lugar de residencia</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14! 1m8!1m3!1d13316.982127283809!2d-70.6538699!3d-33 .4429091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3 A0x5d0fa12b4d88ae82!2sPalacio%20de%20La%20Moneda !5e0!3m2!1ses-419!2sar!4v1648185087803!5m2!1ses- 419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-d owngrade"></iframe>
+
+</body>
+
+</html>
