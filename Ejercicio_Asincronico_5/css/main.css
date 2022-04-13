@@ -1,0 +1,26 @@
+body {
+    font-family: 'Square Peg', cursive;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px solid red;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+img {
+    width: 30%;
+    margin: 1.4%;
+    height: 1.4%;
+    margin-left: 1.4%;
+}
+ nav a {
+     font-size: 40px !important;
+     text-decoration:none;
+ }
